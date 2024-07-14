@@ -569,7 +569,7 @@ class HealthSummaryPDFGenerator {
       tableWidth: maxWidth ?? 'auto',
       body: rows,
     }
-      ; (this.doc as any).autoTable(options) // eslint-disable-line
+    ; (this.doc as any).autoTable(options) // eslint-disable-line
     this.cursor.y = (this.doc as any).lastAutoTable.finalY // eslint-disable-line
   }
 
